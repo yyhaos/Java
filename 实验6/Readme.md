@@ -11,3 +11,4 @@ eclipse-->help-->Install New Software-->Add ... 然后上面随便写个名字�
 4 找到palette ：    
 Palette就是有所有按钮类、选择类、文本框类的一个工具栏。一般在Design视角下窗口的左边。可以在Window-->Show View-->Other-->WindowBuilder-->Palette中找到它。    
 5 用Palette添加组件到窗体：建议先加入一个JLayeredPane，然后在JLayerPanej上添加其他组件。  
+![](https://raw.githubusercontent.com/yyhaos/Java/master/%E5%AE%9E%E9%AA%8C6/Result.PNG)
