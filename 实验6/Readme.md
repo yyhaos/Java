@@ -1,13 +1,13 @@
-##×÷Òµ±äµÃÓĞÒâË¼ÁËÆğÀ´£º  
-##ÓÃ¿ÉÊÓ»¯µÄ°ì·¨±àĞ´JFrameÀà´°¿Ú³ÌĞò£º  
-Ö÷Òª½èÓÃÁËecpliced×Ô´øµÄwindowbuilder²å¼ş¡£
-1 °²×°cwindowbuilder²å¼ş£¨¿ÉÒÔÏÈ³¢ÊÔÏÂµÚ¶ş²½£¬¿´ÊÇ²»ÊÇÒÑ¾­°²×°ºÃÁË£©£º  ÔÚhttps://www.eclipse.org/windowbuilder/download.phpÉÏÕÒµ½Óë×Ô¼ºµÄecplice°æ±¾Ïà·ûµÄwindowbuilder²å¼ş¾ÍĞĞ¡£±ÈÈç1.9.2µÄ²å¼şÍøÖ·¾ÍÊÇhttp://download.eclipse.org/windowbuilder/1.9.2/
-eclipse-->help-->Install New Software-->Add ... È»ºóÉÏÃæËæ±ãĞ´¸öÃû×Ö£¬ÏÂÃæµÄlocationÌî¸Õ²ÅµÚÒ»²½ÕÒµ½µÄÍøÖ·£¬È«Ñ¡ÒªÏÂÔØµÄ²å¼ş£¬Ò»Â·È·¶¨ÏÂÈ¥£¬×îºóµÈ´ı°²×°¾Í¿ÉÒÔÁË¡£
-2 ´´½¨JFrame´°¿Ú£º
-´´½¨Ò»¸öjava¹¤³Ì  
-ÔÚ¹¤³ÌÖĞ File-->New-->Other ...-->WindowBuilder-->Swing Designer-->JFrame   
-3 ÔÚDesign´°¿Ú½øĞĞ¿ÉÊÓ»¯±à³Ì£º
-ÕÒµ½¸Õ²Å´´½¨µÄJFrameÎÄ¼ş£¬ÓÒ¼ü-->Open With-->WindowBuilder Editor,µã»÷ÔÚ´ò¿ªµÄjavaÎÄ¼şÏÂ·½µÄDesign°´Å¥£¬¾Í´ò¿ªÁËDesignÊÓ½ÇÏÂµÄ´°¿Ú¡£
-4 ÕÒµ½palette £º  
-Palette¾ÍÊÇÓĞËùÓĞ°´Å¥Àà¡¢Ñ¡ÔñÀà¡¢ÎÄ±¾¿òÀàµÄÒ»¸ö¹¤¾ßÀ¸¡£Ò»°ãÔÚDesignÊÓ½ÇÏÂ´°¿ÚµÄ×ó±ß¡£¿ÉÒÔÔÚWindow-->Show View-->Other-->WindowBuilder-->PaletteÖĞÕÒµ½Ëü¡£  
-5 ÓÃPaletteÌí¼Ó×é¼şµ½´°Ìå£º½¨ÒéÏÈ¼ÓÈëÒ»¸öJLayeredPane£¬È»ºóÔÚJLayerPanejÉÏÌí¼ÓÆäËû×é¼ş¡£
+## ä½œä¸šå˜å¾—æœ‰æ„æ€äº†èµ·æ¥ï¼š  
+## ç”¨å¯è§†åŒ–çš„åŠæ³•ç¼–å†™JFrameç±»çª—å£ç¨‹åºï¼š  
+ä¸»è¦å€Ÿç”¨äº†ecplicedè‡ªå¸¦çš„windowbuilderæ’ä»¶ã€‚
+1 å®‰è£…cwindowbuilderæ’ä»¶ï¼ˆå¯ä»¥å…ˆå°è¯•ä¸‹ç¬¬äºŒæ­¥ï¼Œçœ‹æ˜¯ä¸æ˜¯å·²ç»å®‰è£…å¥½äº†ï¼‰ï¼š  åœ¨https://www.eclipse.org/windowbuilder/download.phpä¸Šæ‰¾åˆ°ä¸è‡ªå·±çš„ecpliceç‰ˆæœ¬ç›¸ç¬¦çš„windowbuilderæ’ä»¶å°±è¡Œã€‚æ¯”å¦‚1.9.2çš„æ’ä»¶ç½‘å€å°±æ˜¯http://download.eclipse.org/windowbuilder/1.9.2/
+eclipse-->help-->Install New Software-->Add ... ç„¶åä¸Šé¢éšä¾¿å†™ä¸ªåå­—ï¼Œä¸‹é¢çš„locationå¡«åˆšæ‰ç¬¬ä¸€æ­¥æ‰¾åˆ°çš„ç½‘å€ï¼Œå…¨é€‰è¦ä¸‹è½½çš„æ’ä»¶ï¼Œä¸€è·¯ç¡®å®šä¸‹å»ï¼Œæœ€åç­‰å¾…å®‰è£…å°±å¯ä»¥äº†ã€‚
+2 åˆ›å»ºJFrameçª—å£ï¼š
+åˆ›å»ºä¸€ä¸ªjavaå·¥ç¨‹  
+åœ¨å·¥ç¨‹ä¸­ File-->New-->Other ...-->WindowBuilder-->Swing Designer-->JFrame   
+3 åœ¨Designçª—å£è¿›è¡Œå¯è§†åŒ–ç¼–ç¨‹ï¼š
+æ‰¾åˆ°åˆšæ‰åˆ›å»ºçš„JFrameæ–‡ä»¶ï¼Œå³é”®-->Open With-->WindowBuilder Editor,ç‚¹å‡»åœ¨æ‰“å¼€çš„javaæ–‡ä»¶ä¸‹æ–¹çš„DesignæŒ‰é’®ï¼Œå°±æ‰“å¼€äº†Designè§†è§’ä¸‹çš„çª—å£ã€‚
+4 æ‰¾åˆ°palette ï¼š  
+Paletteå°±æ˜¯æœ‰æ‰€æœ‰æŒ‰é’®ç±»ã€é€‰æ‹©ç±»ã€æ–‡æœ¬æ¡†ç±»çš„ä¸€ä¸ªå·¥å…·æ ã€‚ä¸€èˆ¬åœ¨Designè§†è§’ä¸‹çª—å£çš„å·¦è¾¹ã€‚å¯ä»¥åœ¨Window-->Show View-->Other-->WindowBuilder-->Paletteä¸­æ‰¾åˆ°å®ƒã€‚  
+5 ç”¨Paletteæ·»åŠ ç»„ä»¶åˆ°çª—ä½“ï¼šå»ºè®®å…ˆåŠ å…¥ä¸€ä¸ªJLayeredPaneï¼Œç„¶ååœ¨JLayerPanejä¸Šæ·»åŠ å…¶ä»–ç»„ä»¶ã€‚
