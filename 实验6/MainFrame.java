@@ -1,41 +1,12 @@
 package test6;
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.JButton;
-import javax.swing.JScrollPane;
-import javax.swing.JDesktopPane;
-import javax.swing.JSplitPane;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
-import javax.swing.JTabbedPane;
-import javax.swing.JInternalFrame;
-import javax.swing.JLayeredPane;
-import javax.swing.JTextField;
-import java.awt.Font;
-import javax.swing.SwingConstants;
-import javax.swing.DropMode;
-import javax.swing.JTextArea;
-import java.awt.Color;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-import javax.swing.JRadioButton;
-import javax.swing.event.ChangeListener;
+import java.awt.*;
+
+import javax.swing.*;
+import javax.swing.border.*;
 import javax.swing.event.ChangeEvent;
-import javax.swing.JCheckBox;
-import javax.swing.ButtonGroup;
-import javax.swing.JComboBox;
-import javax.swing.DefaultComboBoxModel;
-import java.awt.event.ItemListener;
-import java.awt.event.ItemEvent;
-import javax.swing.JList;
-import javax.swing.AbstractListModel;
-import javax.swing.JLabel;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseMotionAdapter;
+import javax.swing.event.ChangeListener;
+
+import java.awt.event.*;
 import java.util.Random;
 public class MainFrame extends JFrame {
  private JPanel contentPane;
@@ -118,8 +89,21 @@ public class MainFrame extends JFrame {
   textField.setColumns(10);
   
   textField_1 = new JTextField();
+//  textField_1.addKeyListener(new KeyListener() {//Listener
+//	  public void keyPressed(KeyEvent e) {
+//		    if(e.getKeyChar()!='\n') {
+//		     textField_2.setText(textField_1.getText()+e.getKeyChar());
+//		    }
+//		    else {
+//		     textField_1.setText("");
+//		     textField_2.setText("");
+//		    }
+//		    repaint() ;
+//		   }
+	  public void keyTyped(KeyEvent e) {}
+	  public void keyReleased(KeyEvent e) {}
+//  });
   textField_1.addKeyListener(new KeyAdapter() {//实验6-4双文本框配合
-   @Override
    public void keyPressed(KeyEvent e) {
     if(e.getKeyChar()!='\n') {
      textField_2.setText(textField_1.getText()+e.getKeyChar());
@@ -177,7 +161,7 @@ public class MainFrame extends JFrame {
   layeredPane.add(checkBox);
   
   JRadioButton radioButton_putong = new JRadioButton("\u666E\u901A");
-  radioButton_putong.addChangeListener(new ChangeListener() {//实验6-6选字体格式1
+  radioButton_putong.addChangeListener((ChangeListener) new ChangeListener() {//实验6-6选字体格式1
   	public void stateChanged(ChangeEvent e) {
   		if(radioButton_putong.isSelected()) {
   			button_1.setFont(new Font("等线", Font.PLAIN, 12));
@@ -343,3 +327,4 @@ public class MainFrame extends JFrame {
   layeredPane.add(btnYyh);
  }
 }
+
